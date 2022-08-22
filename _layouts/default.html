@@ -3,17 +3,27 @@
 
 {% include head.html %}
 
-<body id="page-top">
+<body>
 
-  {% include nav.html %}
+  {% if site.data.settings.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
   {% include header.html %}
-  {% include call-to-action.html %}
-  {% include services.html %}
-  {% include portfolio.html %}
-  {% include aside.html %}
-  {% include page.html %}
-  {% include scripts.html %}
 
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    {{ content }}
+  </main>
+  <!-- end content -->
+
+  <div class="top ion ion-ios-arrow-up" title="Top"></div>
+
+  {% include search.html %}
+
+  {% include footer.html %}
+
+  {% include javascripts.html %}
 </body>
 
 </html>
