@@ -3,7 +3,7 @@ layout: post
 title: MX 3.0mm 43645,43640 端子, 胶壳, 针座 
 date:   2022-09-01 13:57:38 +0800
 category: 3.0
-permalink: /housing-terminal/292-308-3001.html
+permalink: /housing-terminal/292-308-MX30-3001.html
 excerpt: Pitch 3.0mm
 image:  none.png
 tags: 3.0
